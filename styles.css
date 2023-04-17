@@ -18,7 +18,7 @@ header{
    display: flex;
    flex-wrap: wrap;
    gap: 70px;
-   
+   padding-left: 60px;
  background-color: lightgray;
 }
 .workcontainer{
@@ -87,8 +87,6 @@ form{
     background-color: white;
     border-radius: 18px;
     line-height: 10px;
-    
-
 }
 .cross{
     position: relative;
@@ -166,12 +164,13 @@ p{
    }
    .icon{
     position: relative;
-    left:220px;
+    left:230px;
     top:10px;
    }
    .maincontainer{
     flex-direction: column;
     align-items: center;
+    padding: 0%;
    }
    .addnewtask{
     left:11%;
