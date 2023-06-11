@@ -1,4 +1,7 @@
-
+body{
+margin: 0;
+padding: 0;
+}
    
 header{
     font-family: 'Inter', sans-serif;
@@ -44,6 +47,7 @@ header{
     text-align: center;
     position: relative;
     left: 900px;
+    top: 6px;
     margin-top: 5px;
 }
 .task{
@@ -173,7 +177,13 @@ p{
     padding: 0%;
    }
    .addnewtask{
-    left:11%;
+  left :4%;
+    width: 400px;
+    height: 200px;
+
+   }
+   .addtask{
+    position: absolute;
    }
   
  .paristrip{
